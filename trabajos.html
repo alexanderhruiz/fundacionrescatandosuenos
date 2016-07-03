@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+	<meta charset="utf-8"/>
+		<title>Rescatando Sueños</title>
+		<meta name ="description" content="p&aacute;gina, html5, css3, diseño web"/>
+		<meta name ="viewport" content="width=device-width,initial-scale=1"/>
+		<link rel="author" type="text/plain" href="humans.txt"/>
+		<link rel="sitemap" type="application/xml" title:="Sitemap" href="sitemap.xml"/>
+		<link rel="stylesheet" href="css/fancybox.css"/>
+		<link rel="stylesheet" href="css/estilos.css"/>		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script>!window.jquery && document.write ("<script src='js/jquery.min.js'><\/script>");</script>
+		<script src="js/jquery.jquery.mousewheel-3.0.4.pack.js"></script>
+		<script src="js/jquery.fancybox-1.3.4.js"></script>
+		<script>
+			$(document).ready(function(){
+				//fancybox
+				$("a[rel=trabajos]").fancybox({
+					"transitionIn":"fade",
+					"transitionOut":"elastic",
+					"titlePosition":"over",
+					"titleFormat":function(title, currentArray, currentIndex, currentOpts){
+						return "<span id= 'fancybox-title-over'>Trabajo "+ (currentIndex+1)+" de "+ currentArray.length
+						 +(title.length?" &nbsp; "+title:"") + "</span>";
+					}
+				});
+			});
+		</script>
+</head>
+	<body>
+		<header> 
+		<h1>
+			<a href="index.html">
+				<img class="fade" alt="Fundaci&oacute;n Rescatando Sueños" src="imagenes/logo.png"/>
+			</a>
+		</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="acerca.html">Acerca</a></li>
+				<li><a href="servicios.html">Servicios</a></li>
+				<li><a href="trabajos.html">Trabajos</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+		</header>
+		<section id="contenido">
+			<section id="trabajos">
+				<h2>Algunos de nuestros trabajos</h2>
+				<div class="portafolio">
+					<article>
+						<a rel="trabajos" class="fade" href="imagenes/trabajo1.png" title="Grupo de Teatro Escolar">
+							<img class="redonda" src="imagenes/trabajo1-mini.png" >
+							<h5>Teatro</h5>
+						</a>
+						<a rel="trabajos" class="fade" href="imagenes/trabajo2.png" title="Grupo Coral Infantil">
+							<img class="redonda" src="imagenes/trabajo2-mini.png">
+							<h5>Coral</h5>
+						</a>
+						<a rel="trabajos" class="fade" href="imagenes/trabajo3.png" title="Grupo Infantil y Adolescente de Gastronomia ">
+							<img class="redonda" src="imagenes/trabajo3-mini.png">
+							<h5>Gastronomia</h5>
+						</a>
+						<a rel="trabajos" class="fade" href="imagenes/trabajo4.png" title="Grupo de Arte Rescatando Sueños">
+							<img class="redonda" src="imagenes/trabajo4-mini.png">
+							<h5>Arte</h5>
+						</a>
+					</article>
+				</div>
+			</section>
+		</section>	
+		<footer>
+				Apoyenos Apadrinando un Niño Contactenos Fundación Rescatando Sueños: ...Email: fundacionrescatandosuenos@gmail.com, Tel&eacute;fono: (52)+031316123456, Direccion: Bucaramanga Santander - Colombia, siguenos en https://www.facebook.com/fundacionrescatandosuenos, http://twitter.com/@fundrescatasu.
+		</footer>	
+	</body>
+</html> 

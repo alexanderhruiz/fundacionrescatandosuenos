@@ -1,0 +1,489 @@
+*{
+border: 0;
+margin: 0;
+padding: 0;
+}
+
+article, figcaption,figure,footer,header,hgroup,nav,section{
+	display: block;
+
+}
+
+
+@font-face {
+    font-family: "kindergartenmedium";
+    src: url("../fonts/kindergarten-webfont.woff2") format("woff2"),
+         url("../fonts/kindergarten-webfont.woff") format("woff"),
+         url("../fonts/kindergarten-webfont.ttf") format("truetype"),
+         url("../fonts/kindergarten-webfont.svg#kindergarten-webfont") format("svg");
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: "amadeus_regularamadeusRg";
+    src: url("../fonts/amadeus-webfont.woff2") format("woff2"),
+         url("../fonts/amadeus-webfont.woff") format("woff"),
+         url("../fonts/amadeus-webfont.ttf") format("truetype"),
+         url("../fonts/amadeus-webfont.svg#amadeus-webfont") format("svg");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+	background: #212121 url(../imagenes/fondo.jpg);
+	color: #1C1C1C;
+	font-family: "kindergartenmedium",Helvetica, Verdana;
+	font-size: 1em;
+}
+
+a{
+	color:#57ABB8;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #F60;
+}
+
+figcaption{
+	font-size: 0.85em;
+	padding: 0.25em;
+	text-align: center;
+}
+
+form{
+	width: 100%;
+}
+form div{
+	margin: .5em;
+}
+
+
+h1{
+	color: #3104B4;
+	font-size: 1.5em;
+	font-family:"kindergartenmedium",Helvetica, Verdana;
+	text-align: justify;
+
+}
+
+h2{
+	color: #B40404;
+	font-size: 3em;
+	font-weight: bold;
+	font-family:"amadeus_regularamadeusRg",Helvetica, Verdana;
+}
+
+h3{
+	color: #0000FF;
+	border-radius: 1em;
+	box-shadow: .25em .25em .25em rgba(255,153,0,.5)
+	font-size: 2.5em;
+	font-weight: bold;
+	font-family:"amadeus_regularamadeusRg",Helvetica, Verdana;
+	
+}
+
+hr{
+border: 1px dashed #fff;
+margin: 1em 0;
+
+}
+
+iframe{
+	border-radius: .5em;
+}
+
+input[type="email"], input[type="text"], textarea{
+	background: #EEE;
+	border-radius: .25em;
+	color: #F60;
+	font-size: 1em;
+	padding: .25em;
+	height: 95%;
+}
+
+input[type="email"]:focus, input[type="text"]:focus, textarea:focus{
+background: #C6ECF9;
+}
+
+input[type="submit"]{
+	background: #FE9A2E;
+	border-radius: 0 .25em;
+	color:#500;
+	font-family:"kindergartenmedium";
+	font-size: 1.25em;
+	padding: .25em;
+}
+
+input[type="submit"]:hover {
+	background: #58FA58;
+	border-radius: .25em 0;
+	color: #000;
+	cursor: pointer;
+}
+
+label{
+	color:#FFFFFF;
+	font-size: 1.2em;
+	cursor: pointer;
+}
+
+
+legend{
+color:#58FA58;
+font-size: 1.2em;
+font-weight: bold;
+
+}
+p{
+	color:#FFFFFF;
+	font-size: 1.2em;
+	cursor: pointer;
+}	
+}
+
+textarea{
+	resize: none;
+}
+
+audio, iframe, img, video{
+	max-width: 100%;
+}
+fieldset{
+	border: .1em solid #F60;
+	border-radius: .5em;
+	padding: 1em;
+}
+
+header, section#contenido, footer{
+	background:#fff url(../imagenes/fondo-interno.jpg);
+	margin: 0 auto;
+	max-width: 80%;
+	text-align: center;
+}
+
+header h1, nav{
+	display: inline-block;
+	max-width: 100%;
+	vertical-align: middle;
+
+}
+h5{
+	color:#f40;
+	display: inline-block;
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav li{
+	display: inline-block;
+	padding: 0.1em;
+	vertical-align: top;
+}
+
+nav a{
+	background: #fff;
+	border: 0.1em solid #57ABB8;
+	border-radius: 0.25em;
+	color:#f40;
+	display: block;
+	font-family: "amadeus_regularamadeusRg",Helvetica, Verdana;
+	font-size: 1.8em;
+	padding: 0.2em;
+	-ms-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	-webkit-transition: all 0.5s ease-in;
+	transition: all 0.5s ease-in;
+}
+
+nav a:hover{
+
+	background: #B7FE6B;
+	border: 0.1em dashed #F45;
+	border-radius: 0 0.5em 0 0.5em;
+	color:#333AC9;
+	-ms-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+}
+  {
+
+}
+
+section#principal, aside{
+background: #9CFE86;
+border-radius: 0.5em;
+display: inline-block;
+margin: 0 auto;
+max-width: 100%;
+padding: 0.25em;
+vertical-align: top;
+width: 45%;
+
+}
+
+article#galeria-inicio{
+border-radius: 0.5em;
+margin: 0.5em;
+padding: 0.5em;
+text-align: center;
+width: 95%;
+}
+
+aside{
+	width:40%;
+}
+
+aside img, #img-acerca img, #video-acerca, #img-servicios {
+	border-radius: 0.5em;
+}
+
+article#descripcion-acerca, article#multimedia-acerca{
+	
+	background: #F3F781;
+	border-radius: 0.5em;
+	display: inline-block;
+	margin: 0 auto;
+	max-width: 100%;
+	min-height: 500px;
+	padding: 0.5em;
+	vertical-align: top;
+	width: 55%;
+}
+article#multimedia-acerca{
+	background:#81F781;
+	text-align: center;
+	width: 40%;
+}
+li img{
+	border-radius: 0.5em;
+}
+
+section#servicios-principal, section#servicios-tipos{
+	margin: 0 auto;
+	max-width: 95%;
+}
+#img-servicios1{
+	margin: 1em 0;
+	vertical-align: top;
+	width: 55%;
+}
+
+#img-servicios, article#nuestros-servicios{
+	
+	margin: 1em 0;
+	vertical-align: top;
+	width: 24%;
+}
+article#nuestros-servicios{
+	
+	background: #81F7D8;
+	border-radius: .5em;
+	max-width: 100%;
+	min-height:270px;
+	padding: .5em;
+	font-weight: bold;
+	width: 97%; 
+}
+
+section#trabajos{
+	background:#FAAC58;
+	border-radius: .5em;
+	margin: 0 auto;
+	max-width: 80%;
+	padding: .5em;
+	text-align: center;
+
+}
+
+div.portafolio{
+	margin: 2em auto;
+}
+div.portafolio article{
+	display: inline;
+	padding: 1em;
+}
+
+section#contacto, section#mapa{
+	background: #011E30;
+	border-radius: .5em;
+	display: inline-block;
+	margin: 0 auto;
+	min-height: 350px;
+	padding: .5em;
+	text-align: justify;
+	vertical-align: top;
+	width: 45%;
+}
+
+article#info-contacto, article#contactanos{
+	border: .1em solid #1E6381;
+	border-radius: .5em;
+	margin: .5em;
+	min-height: 144px;
+	padding: .5em;
+}
+span.datos-contacto{
+	color:#F90;
+	margin-left: 1em;
+	font-size: 1.2em;
+	
+}
+
+section#mapa{
+	text-align: center;
+}
+
+footer{
+
+	color: #000;
+	font-size: 0.85em;
+	padding: 0.75em 0;
+}
+
+.fade{
+	opacity: 1;
+	filter: alpha(opacity=10);
+	-ms-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	-webkit-transition: all 0.5s ease-in;
+	transition: all 0.5s ease-in;
+}
+
+.fade:hover{
+	opacity: 0.7;
+	filter: alpha(opacity=7);
+	-ms-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+
+}
+.redonda{
+	border-radius: 5.125em;
+	box-shadow: 5px 5px 10px rgba(47,45,130,2);
+}
+
+@media screen and (min-width: 1081px){
+	header h1{
+		text-align: left;
+		width: 35%;
+	}
+	nav{
+		text-align: right;
+		width: 60%;
+	}
+}
+
+@media screen and (max-width: 1080px){
+
+	nav li{
+		font-size: 1.3em;
+	}
+	article#galeria-inicio{
+		width: 90%;
+	}
+	aside{
+		width: 20%;
+	}
+
+	article#descripcion-acerca, article#multimedia-acerca{
+		width: 45%;
+
+	}
+	
+	section#trabajos{
+	max-width: 90%;
+	}
+	
+	div.portafolio article{
+	padding: .5em;
+	}
+	
+	form{
+		width: 95%;
+	}
+	
+}
+
+@media screen and (max-width: 800px){
+
+	nav li{
+		font-size: 0.95em;
+	}
+
+	article#galeria-inicio{
+		width: 90%;
+	}
+	#img-servicios{
+		width: 98%;
+	}
+
+	section#trabajos{
+		max-width: 95%;
+	}
+	div.portafolio article{
+		padding: 2em;
+	}
+
+	section#contacto, section#mapa{
+		display: block;
+		width: 95%;
+	}
+
+	section#contacto{
+		margin-bottom: .2em;
+	}
+}
+
+@media(max-width: 600px){
+	nav li{
+		display: inline-block;
+		margin: 0px;
+		width: 98%;
+	}
+	
+	section#principal, article#descripcion-acerca{
+		margin-bottom: 0.2em;
+	}
+	section#principal, aside, article#descripcion-acerca, article#multimedia-acerca{
+		display: block;
+		width: 95%;
+	}
+div.portafolio article{
+	display: block;
+	margin: .5em auto;
+	padding: 0;
+}
+
+
+}
+
+
+<!-- Place either at the bottom in the <head> of your page or inside your CSS -->
+<style type="text/css">
+.flex-caption {
+  width: 96%;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+  font-size: 14px;
+  line-height: 18px;
+}
+</style>
